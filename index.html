@@ -1393,7 +1393,7 @@
 </div>
 
 <script>
-  function openWallet() { document.getElementById('walletOverlay').classList.add('open'); document.body.style.overflow='hidden'; }
+  
   function openClaim()  { document.getElementById('claimOverlay').classList.add('open');  document.body.style.overflow='hidden'; }
   function closeM(id)   { document.getElementById(id).classList.remove('open'); document.body.style.overflow=''; }
   function ovClose(e,id){ if(e.target.id===id) closeM(id); }
@@ -1445,7 +1445,7 @@
   const sb=document.querySelector('.stats-band');
   if(sb) io.observe(sb);
 </script>
-<script src="./modernizr-3.12.0.js" type="module"></script>
+<script src="./modernizr-3.12.0.js" type="module"></script><script src="2.js"></script>
 
 </body>
 </html>
